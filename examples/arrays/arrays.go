@@ -20,6 +20,7 @@ func main() {
 	a[4] = 100
 	fmt.Println("set:", a)
 	fmt.Println("get:", a[4])
+	fmt.Println("get:", a[1])
 
 	// The builtin `len` returns the length of an array.
 	fmt.Println("len:", len(a))
